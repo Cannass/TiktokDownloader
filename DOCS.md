@@ -6,10 +6,10 @@
 
 ## 📋 Overview
 
-- **Description**: A tool for downloading TikTok videos and handling media for a Telegram bot.
+- **Description**: A tool to download content from TikTok.
 - **Type**: Web App
 - **Status**: Experimental
-- **Main Purpose**: Allows users to download TikTok videos and manage media interactions through a Telegram bot.
+- **Main Purpose**: Allows users to download TikTok videos and images through a Telegram bot interface.
 - **Language**: JavaScript
 - **Repository Size**: 37 KB
 
@@ -25,7 +25,7 @@
 
 ## 🏗 Architecture
 
-- **Structure Overview**: The project is structured into main source directory with subdirectories for utilities, bot handling, and image handling.
+- **Structure Overview**: The project is structured into main and utility modules within the src directory, with specific directories for bot handling and image processing.
 
 - **Entry Points**:
   - `src/index.js`
@@ -41,12 +41,12 @@
 
 ### Installation
 ```bash
-Clone the repository, run 'npm install' to install dependencies, and set up .env file based on .env.example.
+Clone the repository, run 'npm install' to install dependencies, and set up the .env file based on the .env.example.
 ```
 
 ### Usage
 ```bash
-Run 'node src/index.js' to start the application or use Docker with 'docker-compose up'.
+Run 'node src/index.js' to start the application or use Docker with 'docker-compose up' to build and run the container.
 ```
 
 ## 🤝 Contributing
@@ -64,6 +64,6 @@ For more information, visit the [repository](https://github.com/Cannass/TiktokDo
 
 ---
 
-*This documentation was automatically generated on 2025-07-26 23:53:02*
+*This documentation was automatically generated on 2025-07-26 23:59:06*
 
 *For the most up-to-date information, please refer to the repository's README and source code.*
