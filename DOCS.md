@@ -6,12 +6,12 @@
 
 ## 📋 Overview
 
-- **Description**: A bot that downloads and manages TikTok media, specifically designed to handle images and audio.
+- **Description**: A tool for downloading TikTok videos and handling media for a Telegram bot.
 - **Type**: Web App
 - **Status**: Experimental
-- **Main Purpose**: To download and manage TikTok media through a Telegram bot interface.
+- **Main Purpose**: Allows users to download TikTok videos and manage media interactions through a Telegram bot.
 - **Language**: JavaScript
-- **Repository Size**: 35 KB
+- **Repository Size**: 37 KB
 
 ## 🛠 Tech Stack
 
@@ -20,33 +20,33 @@
 - **Build Tool**: npm
 - **Key Dependencies**:
   - @lucas_monroe/tiktok-api-dl
-  - express
+  - axios
   - node-telegram-bot-api
 
 ## 🏗 Architecture
 
-- **Structure Overview**: The project is structured into main source directory (src) with subdirectories for utilities, bot handling, and image handling.
+- **Structure Overview**: The project is structured into main source directory with subdirectories for utilities, bot handling, and image handling.
 
 - **Entry Points**:
   - `src/index.js`
 
 - **Design Patterns**:
-  - Module pattern
+  - Modular
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js installed
-- Docker (optional for containerization)
+- Node.js
+- Docker (optional)
 
 ### Installation
 ```bash
-Clone the repository, run 'npm install' to install dependencies, and set up the .env file with necessary environment variables.
+Clone the repository, run 'npm install' to install dependencies, and set up .env file based on .env.example.
 ```
 
 ### Usage
 ```bash
-Run 'node src/index.js' to start the bot or use 'docker-compose up' to run it in a Docker container.
+Run 'node src/index.js' to start the application or use Docker with 'docker-compose up'.
 ```
 
 ## 🤝 Contributing
@@ -64,6 +64,6 @@ For more information, visit the [repository](https://github.com/Cannass/TiktokDo
 
 ---
 
-*This documentation was automatically generated on 2025-07-25 21:01:39*
+*This documentation was automatically generated on 2025-07-26 23:53:02*
 
 *For the most up-to-date information, please refer to the repository's README and source code.*
